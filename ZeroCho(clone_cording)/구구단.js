@@ -19,7 +19,7 @@ document.body.append(결과창);
 폼.addEventListener('submit', function (이벤트) {
     이벤트.preventDefault();
     if (결과 === Number(입력창.value)) {
-        결과창.textContent = "딩동댕";
+        결과창.textContent = "딩동댕댕동";
         숫자1 = Math.ceil(Math.random() * 9)
         숫자2 = Math.ceil(Math.random() * 9)
         결과 = 숫자1 * 숫자2
